@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 1.6em;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn-grp{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+
+.btn{
+    margin: 8px;
+    color: white;
+    background-color: chocolate;
+    padding: 12px;
+
+}
+
+.box, .box2, .box3{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    translate: 100px 20px;
+}
+
+.close{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    border: 0px;
+}
